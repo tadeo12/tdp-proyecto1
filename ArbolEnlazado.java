@@ -28,7 +28,7 @@ public class ArbolEnlazado<E> implements Tree<E> {
 
 	@Override
 	public boolean isEmpty() {
-		return raiz == null;
+		return size==0;
 	}
 
 	@Override
